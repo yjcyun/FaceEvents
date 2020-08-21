@@ -1,5 +1,5 @@
 .main {
-  margin-top: 7rem;
+  margin: 7rem auto 5rem;
 }
 
 .content .description.event-desc {
@@ -14,4 +14,9 @@
 
 .ui.column.grid .row .event-card:hover{
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.event-attendees {
+  display:inline-block;
+  margin: 0 0.4rem;
 }

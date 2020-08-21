@@ -1,15 +1,22 @@
 import React from 'react'
-import EventDetailHeader from '../components/EventDetail/EventDetailHeader'
 import { Grid } from 'semantic-ui-react'
+import EventDetailHeader from '../components/EventDetail/EventDetailHeader'
+import EventDetailAttendees from '../components/EventDetail/EventDetailAttendees'
+import EventDetailDesc from '../components/EventDetail/EventDetailDesc'
+import EventDetailVenue from '../components/EventDetail/EventDetailVenue'
+import EventDetailComments from '../components/EventDetail/EventDetailComments'
 
 const EventDetailPage = () => {
   return (
     <Grid>
-      <Grid.Column width={10}>
+      <Grid.Column width={8}>
         <EventDetailHeader />
+        <EventDetailDesc />
+        <EventDetailVenue />
       </Grid.Column>
-      <Grid.Column width={6}>
-
+      <Grid.Column width={8}>
+        <EventDetailAttendees />
+        <EventDetailComments />
       </Grid.Column>
     </Grid>
   )

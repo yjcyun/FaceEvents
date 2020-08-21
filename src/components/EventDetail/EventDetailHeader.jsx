@@ -10,7 +10,7 @@ const EventDetailHeader = () => {
         <Image src={`/assets/categoryImages/drinks.jpg`} fluid />
       </Segment>
       {/* End of Event Image */}
-      
+
       <Segment attached='bottom'>
         {/* Event name and hosted by */}
         <Item.Group>
@@ -29,9 +29,13 @@ const EventDetailHeader = () => {
         {/* End of Event name and hosted by */}
 
         {/* Buttons */}
-        <Button color='green'>JOIN THIS EVENT</Button>
-        <Button>CANCEL MY PLACE</Button>
-        <Button as={Link} to='/manage/' color='orange' floated='right'>MANAGE EVENT</Button>
+        <Button icon labelPosition='left' basic >
+          <Icon name='heart' color='red' />INTERESTED
+        </Button>
+        <Button icon labelPosition='left' basic >
+          <Icon name='check' color='green' />GOING
+        </Button>
+        <Button as={Link} to='/manage/' floated='right'>MANAGE EVENT</Button>
         {/* End of Buttons */}
 
         <Divider />
