@@ -10,7 +10,7 @@ const NavBar = () => {
           <img src='/assets/logo.png' alt='logo' style={{marginRight:'1rem'}}/>
           FaceEvents
         </Menu.Item>
-        <Menu.Item as={NavLink} to='/events/'>
+        <Menu.Item as={NavLink} to='/events/create-event'>
           Create Event
         </Menu.Item>
         <Menu.Item position='right'>
