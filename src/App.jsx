@@ -1,19 +1,20 @@
 import React from 'react';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import EventDetailPage from './pages/EventDetailPage';
 import NavBar from './components/NavBar';
+import { Container } from 'semantic-ui-react';
 
 function App() {
   return (
     <>
       <NavBar />
-      <Switch>
+      <Container className='main'>
         <Route exact path='/' component={HomePage} />
         <Route path='/events/:id' component={EventDetailPage} />
-      </Switch>
+      </Container>
     </>
   );
 }

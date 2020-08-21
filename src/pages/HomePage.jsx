@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container } from 'semantic-ui-react'
+import { sampleData } from '../api/sampleData'
+import EventDashboard from '../components/Home/EventDashboard';
 
 const HomePage = () => {
+  const [events, setEvents] = useState(sampleData);
+
   return (
     <Container>
-      Homepage
+      <EventDashboard events={events} />
     </Container>
   )
 }
