@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
 import HomePage from './pages/HomePage';
 import EventDetailPage from './pages/EventDetailPage';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar/NavBar';
 import CreateEventPage from './pages/CreateEventPage';
 
 function App() {
