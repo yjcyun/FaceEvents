@@ -19,7 +19,24 @@ export const sampleData = [
         id: 'b',
         name: 'Tom',
         photoURL: 'https://randomuser.me/api/portraits/men/22.jpg'
+      },
+      {
+        id: 'c',
+        name: 'Amanda',
+        photoURL: 'https://randomuser.me/api/portraits/women/1.jpg'
       }
+    ],
+    interested:[
+      {
+        id: 'e',
+        name: 'Bob',
+        photoURL: 'https://randomuser.me/api/portraits/men/2.jpg'
+      },
+      {
+        id: 'f',
+        name: 'Tom',
+        photoURL: 'https://randomuser.me/api/portraits/men/3.jpg'
+      },
     ]
   },
   {
@@ -34,15 +51,32 @@ export const sampleData = [
     hostPhotoURL: 'https://randomuser.me/api/portraits/men/23.jpg',
     attendees: [
       {
-        id: 'a',
+        id: 'g',
         name: 'Bob',
         photoURL: 'https://randomuser.me/api/portraits/men/24.jpg'
       },
       {
-        id: 'b',
+        id: 'h',
         name: 'Tom',
         photoURL: 'https://randomuser.me/api/portraits/men/25.jpg'
       }
+    ],
+    interested:[
+      {
+        id: 'i',
+        name: 'Bob',
+        photoURL: 'https://randomuser.me/api/portraits/men/4.jpg'
+      },
+      {
+        id: 'ee',
+        name: 'Tom',
+        photoURL: 'https://randomuser.me/api/portraits/men/5.jpg'
+      },
+      {
+        id: 'ff',
+        name: 'Tom',
+        photoURL: 'https://randomuser.me/api/portraits/men/6.jpg'
+      },
     ]
   },
   {
@@ -57,14 +91,26 @@ export const sampleData = [
     hostPhotoURL: 'https://randomuser.me/api/portraits/women/18.jpg',
     attendees: [
       {
-        id: 'a',
+        id: 'aa',
         name: 'Bob',
         photoURL: 'https://randomuser.me/api/portraits/women/19.jpg'
       },
       {
-        id: 'b',
+        id: 'bb',
         name: 'Tom',
         photoURL: 'https://randomuser.me/api/portraits/men/26.jpg'
+      }
+    ],
+    interested:[
+      {
+        id: 'gg',
+        name: 'Bob',
+        photoURL: 'https://randomuser.me/api/portraits/men/7.jpg'
+      },
+      {
+        id: 'hh',
+        name: 'Tom',
+        photoURL: 'https://randomuser.me/api/portraits/men/8.jpg'
       }
     ]
   },
@@ -80,14 +126,26 @@ export const sampleData = [
     hostPhotoURL: 'https://randomuser.me/api/portraits/women/27.jpg',
     attendees: [
       {
-        id: 'a',
+        id: 'aaa',
         name: 'Bob',
         photoURL: 'https://randomuser.me/api/portraits/men/28.jpg'
       },
       {
-        id: 'b',
+        id: 'bbb',
         name: 'Tom',
         photoURL: 'https://randomuser.me/api/portraits/men/29.jpg'
+      }
+    ],
+    interested:[
+      {
+        id: 'ii',
+        name: 'Bob',
+        photoURL: 'https://randomuser.me/api/portraits/men/9.jpg'
+      },
+      {
+        id: 'jj',
+        name: 'Tom',
+        photoURL: 'https://randomuser.me/api/portraits/men/10.jpg'
       }
     ]
   }

@@ -4,7 +4,7 @@ import EventDetailPanes from './EventDetailPanes'
 
 const EventDetailAttendees = () => {
   return (
-    <Tab panes={EventDetailPanes} />
+    <Tab panes={EventDetailPanes()} />
   )
 }
 

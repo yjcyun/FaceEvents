@@ -2,12 +2,14 @@ import React from 'react'
 import { Segment, Image, Item, Header, Button, Divider, Icon, Grid } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
-const EventDetailHeader = () => {
+const EventDetailHeader = ({
+  event: { category, title, hostedBy, date, city }
+}) => {
   return (
     <Segment.Group>
       {/* Event Image */}
       <Segment basic attached='top' style={{ padding: '0' }}>
-        <Image src={`/assets/categoryImages/drinks.jpg`} fluid />
+        <Image src={`/assets/categoryImages/${category}.jpg`} fluid />
       </Segment>
       {/* End of Event Image */}
 
@@ -19,9 +21,9 @@ const EventDetailHeader = () => {
             <Item.Content>
               <Header
                 size='huge'
-                content='Event Title'
+                content={title}
               /><br />
-              <Header sub>Hosted By Mars
+              <Header sub>Hosted By {hostedBy}
               </Header>
             </Item.Content>
           </Item>
@@ -46,7 +48,7 @@ const EventDetailHeader = () => {
             <Icon name='time' size='large' color='green' />
           </Grid.Column>
           <Grid.Column width={15}>
-            <span>Event Date</span>
+            <span>{date}</span>
           </Grid.Column>
           {/* End of Event Date */}
           {/* Event Location */}
@@ -54,13 +56,13 @@ const EventDetailHeader = () => {
             <Icon name='marker' size='large' color='green' />
           </Grid.Column>
           <Grid.Column width={15}>
-            <span>Event Location</span>
+            <span>{city}</span>
           </Grid.Column>
           {/* Event Location */}
         </Grid>
       </Segment>
     </Segment.Group>
-  )
+  );
 }
 
 export default EventDetailHeader
