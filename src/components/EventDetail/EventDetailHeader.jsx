@@ -37,7 +37,13 @@ const EventDetailHeader = ({
         <Button icon labelPosition='left' basic >
           <Icon name='check' color='green' />GOING
         </Button>
-        <Button as={Link} to='/manage/' floated='right'>MANAGE EVENT</Button>
+        <Button
+          as={Link}
+          to={`/manage/${title}`}
+          floated='right'
+        >
+          MANAGE EVENT
+        </Button>
         {/* End of Buttons */}
 
         <Divider />

@@ -6,7 +6,7 @@ const EventDashboard = () => {
   return (
     <Grid columns={4} >
       <Grid.Row>
-        <EventList />
+        <EventList/>
       </Grid.Row>
     </Grid>
   )

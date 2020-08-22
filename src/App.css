@@ -2,12 +2,6 @@
   margin: 7rem auto 5rem;
 }
 
-.content .description.event-desc {
-  color: #00B181 !important;
-  font-weight: bold;
-  margin-bottom:0.5rem;
-}
-
 .ui.column.grid .row .event-card {
   height: 30rem;
 }

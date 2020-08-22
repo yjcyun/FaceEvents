@@ -11,7 +11,7 @@ const EventList = () => {
     <>
       {events.map(event => (
         <Grid.Column as={Link} to={`/events/${event.title}`} key={event.id}>
-          <EventItems event={event} />
+          <EventItems event={event}/>
         </Grid.Column>
       ))}
     </>

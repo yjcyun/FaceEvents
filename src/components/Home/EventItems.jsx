@@ -5,7 +5,7 @@ const EventItems = ({
   event: { hostPhotoURL, date, title, attendees }
 }) => {
   return (
-    <Card className='event-card'>
+    <Card className='event-card' style={{marginBottom:'1rem'}}>
       <Image src={hostPhotoURL} wrapped ui={false} />
       <Card.Content>
         <Card.Description className='event-desc'>{date}</Card.Description>
