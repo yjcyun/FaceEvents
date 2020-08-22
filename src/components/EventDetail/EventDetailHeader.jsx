@@ -21,7 +21,7 @@ const EventDetailHeader = () => {
                 size='huge'
                 content='Event Title'
               /><br />
-              <Header sub>Hosted By <a href=''>Mars</a>
+              <Header sub>Hosted By Mars
               </Header>
             </Item.Content>
           </Item>

@@ -13,7 +13,7 @@ export const sampleData = [
       {
         id: 'a',
         name: 'Bob',
-        photoURL: 'https://randomuser.me/api/portraits/men/20.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/men/21.jpg'
       },
       {
         id: 'b',
@@ -31,17 +31,17 @@ export const sampleData = [
     city: 'London, UK',
     venue: 'Punch & Judy, Henrietta Street, London, UK',
     hostedBy: 'Tom',
-    hostPhotoURL: 'https://randomuser.me/api/portraits/men/22.jpg',
+    hostPhotoURL: 'https://randomuser.me/api/portraits/men/23.jpg',
     attendees: [
       {
         id: 'a',
         name: 'Bob',
-        photoURL: 'https://randomuser.me/api/portraits/men/20.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/men/24.jpg'
       },
       {
         id: 'b',
         name: 'Tom',
-        photoURL: 'https://randomuser.me/api/portraits/men/22.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/men/25.jpg'
       }
     ]
   },
@@ -59,12 +59,12 @@ export const sampleData = [
       {
         id: 'a',
         name: 'Bob',
-        photoURL: 'https://randomuser.me/api/portraits/men/20.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/women/19.jpg'
       },
       {
         id: 'b',
         name: 'Tom',
-        photoURL: 'https://randomuser.me/api/portraits/men/22.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/men/26.jpg'
       }
     ]
   },
@@ -77,17 +77,17 @@ export const sampleData = [
     city: 'London, UK',
     venue: 'Punch & Judy, Henrietta Street, London, UK',
     hostedBy: 'Tom',
-    hostPhotoURL: 'https://randomuser.me/api/portraits/women/23.jpg',
+    hostPhotoURL: 'https://randomuser.me/api/portraits/women/27.jpg',
     attendees: [
       {
         id: 'a',
         name: 'Bob',
-        photoURL: 'https://randomuser.me/api/portraits/men/20.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/men/28.jpg'
       },
       {
         id: 'b',
         name: 'Tom',
-        photoURL: 'https://randomuser.me/api/portraits/men/22.jpg'
+        photoURL: 'https://randomuser.me/api/portraits/men/29.jpg'
       }
     ]
   }

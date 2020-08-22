@@ -4,7 +4,7 @@ import { sampleData } from '../api/sampleData'
 import EventDashboard from '../components/Home/EventDashboard';
 
 const HomePage = () => {
-  const [events, setEvents] = useState(sampleData);
+  const [events] = useState(sampleData);
 
   return (
     <Container>
